@@ -1,0 +1,4 @@
+hostname, cluster, env
+splunk-idx01.maejer.lab, maejer, dev
+splunk-idx02.maejer.lab, maejer, dev
+splunk-idx03.maejer.lab, maejer, dev
