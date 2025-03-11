@@ -1,24 +1,46 @@
 {
-  "splunk_indexers": [
-    {
-      "host": "splunk-idx01.maejer.lab",
-      "cluster": "maejer",
-      "environment": "dev"
-    },
-    {
-      "host": "splunk-idx02.maejer.lab",
-      "cluster": "maejer",
-      "environment": "dev"
-    },
-    {
-      "host": "splunk-idx03.maejer.lab",
-      "cluster": "maejer",
-      "environment": "dev"
-    },
-    {
-      "host": "splunk-idx04.maejer.lab",
-      "cluster": "maejer",
-      "environment": "dev"
-    }
-  ]
-}
+    "default_cluster": [
+      {
+        "host": "splunk-idxd01.maejer.lab",
+        "cluster": "maejer",
+        "environment": "dev"
+      },
+      {
+        "host": "splunk-idxd02.maejer.lab",
+        "cluster": "maejer",
+        "environment": "dev"
+      },
+      {
+        "host": "splunk-idxd03.maejer.lab",
+        "cluster": "maejer",
+        "environment": "dev"
+      },
+      {
+        "host": "splunk-idxd04.maejer.lab",
+        "cluster": "maejer",
+        "environment": "dev"
+      }
+    ],
+    "maejer_cluster": [
+        {
+          "host": "splunk-idxm01.maejer.lab",
+          "cluster": "maejer",
+          "environment": "dev"
+        },
+        {
+          "host": "splunk-idxm02.maejer.lab",
+          "cluster": "maejer",
+          "environment": "dev"
+        },
+        {
+          "host": "splunk-idxm03.maejer.lab",
+          "cluster": "maejer",
+          "environment": "dev"
+        },
+        {
+          "host": "splunk-idxm04.maejer.lab",
+          "cluster": "maejer",
+          "environment": "dev"
+        }
+      ]
+  }
