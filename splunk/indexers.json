@@ -1,46 +1,84 @@
 {
-    "default_cluster": [
-      {
-        "host": "splunk-idxd01.maejer.lab",
-        "cluster": "maejer",
-        "environment": "dev"
-      },
-      {
-        "host": "splunk-idxd02.maejer.lab",
-        "cluster": "maejer",
-        "environment": "dev"
-      },
-      {
-        "host": "splunk-idxd03.maejer.lab",
-        "cluster": "maejer",
-        "environment": "dev"
-      },
-      {
-        "host": "splunk-idxd04.maejer.lab",
-        "cluster": "maejer",
-        "environment": "dev"
-      }
-    ],
-    "maejer_cluster": [
-        {
-          "host": "splunk-idxm01.maejer.lab",
-          "cluster": "maejer",
-          "environment": "dev"
-        },
-        {
-          "host": "splunk-idxm02.maejer.lab",
-          "cluster": "maejer",
-          "environment": "dev"
-        },
-        {
-          "host": "splunk-idxm03.maejer.lab",
-          "cluster": "maejer",
-          "environment": "dev"
-        },
-        {
-          "host": "splunk-idxm04.maejer.lab",
-          "cluster": "maejer",
-          "environment": "dev"
-        }
-      ]
+    "development": {
+        "default_cluster": [
+            {
+                "address": "splunk-dev-d01.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-dev-d02.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            }
+        ]
+    },
+    "uat": {
+        "default_cluster": [
+            {
+                "address": "splunk-uat-d01.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-uat-d02.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-uat-d03.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-uat-d04.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            }
+        ]
+    },
+    "production": {
+        "default_cluster": [
+            {
+                "address": "splunk-d01.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-d02.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-d03.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-d04.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            }
+        ]
+    }
   }
