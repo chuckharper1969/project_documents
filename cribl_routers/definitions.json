@@ -1,27 +1,24 @@
 {
     "Elastic_Routes": [
         {
-            "description": "ABC Cluster XXXXX",
+            "id": "ABC Cluster",
+            "description": "ABC Cluster",
             "username": "USERNAME-ABC",
             "password": "PASSWORD-ABC XXXX",
             "url": "http://cribl.maejer.lab:9000"
         },
         {
+            "id": "DEF Cluster",
             "description": "DEF Cluster",
             "username": "USERNAME-DEF",
             "password": "PASSWORD-DEF",
             "url": "http://cribl.maejer.lab:9000"
         },
         {
+            "id": "GHI Cluster",
             "description": "GHI Cluster",
             "username": "USERNAME-GHI",
             "password": "PASSWORD-GHI",
-            "url": "http://cribl.maejer.lab:9000"
-        },
-        {
-            "description": "DEF Cluster",
-            "username": "USERNAME-JKL",
-            "password": "PASSWORD-JKL",
             "url": "http://cribl.maejer.lab:9000"
         }
     ]
