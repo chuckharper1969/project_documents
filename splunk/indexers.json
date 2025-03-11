@@ -4,6 +4,21 @@
       "host": "splunk-idx01.maejer.lab",
       "cluster": "maejer",
       "environment": "dev"
+    },
+    {
+      "host": "splunk-idx02.maejer.lab",
+      "cluster": "maejer",
+      "environment": "dev"
+    },
+    {
+      "host": "splunk-idx03.maejer.lab",
+      "cluster": "maejer",
+      "environment": "dev"
+    },
+    {
+      "host": "splunk-idx04.maejer.lab",
+      "cluster": "maejer",
+      "environment": "dev"
     }
   ]
 }
