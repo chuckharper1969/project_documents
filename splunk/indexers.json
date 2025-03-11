@@ -1,0 +1,9 @@
+{
+  "splunk_indexers": [
+    {
+      "host": "splunk-idx01.maejer.lab",
+      "cluster": "maejer",
+      "environment": "dev"
+    }
+  ]
+}
