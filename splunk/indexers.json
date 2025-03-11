@@ -15,6 +15,22 @@
                 "tls_servername": "",
                 "load_weght": 1
             }
+        ],
+        "development_cluster": [
+            {
+                "address": "splunk-dev-dev01.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            },
+            {
+                "address": "splunk-dev-dev02.maejer.lab",
+                "port": "maejer",
+                "tls": "dev",
+                "tls_servername": "",
+                "load_weght": 1
+            }
         ]
     },
     "uat": {
