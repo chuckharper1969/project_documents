@@ -8,8 +8,8 @@
         },
         {
             "title": "DEF_Cluster",
-            "username": "USERNAME-DEF",
-            "password": "PASSWORD-DEF",
+            "username": "USERNAME2-DEF",
+            "password": "PASSWORD2-DEF",
             "url": "http://cribl.maejer.lab:9000"
         },
         {
