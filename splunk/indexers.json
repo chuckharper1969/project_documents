@@ -9,7 +9,7 @@
             },
             {
                 "host": "splunk-dev-d02.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "weight": 1
             }
@@ -17,13 +17,13 @@
         "development_cluster": [
             {
                 "host": "splunk-dev-dev01.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "weight": 1
             },
             {
                 "host": "splunk-dev-dev02.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "weight": 1
             }
@@ -33,28 +33,28 @@
         "default_cluster": [
             {
                 "host": "splunk-uat-d01.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-uat-d02.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-uat-d03.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-uat-d04.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
@@ -65,28 +65,28 @@
         "default_cluster": [
             {
                 "host": "splunk-d01.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-d02.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-d03.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-d04.maejer.lab",
-                "port": "maejer",
+                "port": 9997,
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
