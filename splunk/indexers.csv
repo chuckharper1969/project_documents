@@ -1,4 +1,13 @@
-hostname, cluster, env
-splunk-idx01.maejer.lab, maejer, dev
-splunk-idx02.maejer.lab, maejer, dev
-splunk-idx03.maejer.lab, maejer, dev
+Environment,Cluster,Host,Port,TLS,Weight
+Development,Default,splunk-dd01.maejer.lab,9997,inherit,1
+Development,Default,splunk-dd02.maejer.lab,9997,inherit,1
+Development,Harper,splunk-hd01.maejer.lab,9997,inherit,1
+Development,Harper,splunk-hd02.maejer.lab,9997,inherit,1
+UAT,Default,splunk-du01.maejer.lab,9997,inherit,1
+UAT,Default,splunk-du02.maejer.lab,9997,inherit,1
+UAT,Harper,splunk-hu01.maejer.lab,9997,inherit,1
+UAT,Harper,splunk-hu02.maejer.lab,9997,inherit,1
+Production,Default,splunk-dp01.maejer.lab,9997,inherit,1
+Production,Default,splunk-dp02.maejer.lab,9997,inherit,1
+Production,Harper,splunk-hp01.maejer.lab,9997,inherit,1
+Production,Harper,splunk-hp02.maejer.lab,9997,inherit,1
