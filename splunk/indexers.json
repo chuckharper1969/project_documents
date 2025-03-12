@@ -9,7 +9,7 @@
                 "weight": 1
             },
             {
-                "address": "splunk-dev-d02.maejer.lab",
+                "host": "splunk-dev-d02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
@@ -18,14 +18,14 @@
         ],
         "development_cluster": [
             {
-                "address": "splunk-dev-dev01.maejer.lab",
+                "host": "splunk-dev-dev01.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-dev-dev02.maejer.lab",
+                "host": "splunk-dev-dev02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
@@ -36,28 +36,28 @@
     "uat": {
         "default_cluster": [
             {
-                "address": "splunk-uat-d01.maejer.lab",
+                "host": "splunk-uat-d01.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-uat-d02.maejer.lab",
+                "host": "splunk-uat-d02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-uat-d03.maejer.lab",
+                "host": "splunk-uat-d03.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-uat-d04.maejer.lab",
+                "host": "splunk-uat-d04.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
@@ -68,28 +68,28 @@
     "production": {
         "default_cluster": [
             {
-                "address": "splunk-d01.maejer.lab",
+                "host": "splunk-d01.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-d02.maejer.lab",
+                "host": "splunk-d02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-d03.maejer.lab",
+                "host": "splunk-d03.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
                 "weight": 1
             },
             {
-                "address": "splunk-d04.maejer.lab",
+                "host": "splunk-d04.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
                 "servername": "",
