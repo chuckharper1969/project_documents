@@ -4,14 +4,14 @@
             {
                 "address": "splunk-dev-d01.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-dev-d02.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             }
@@ -20,14 +20,14 @@
             {
                 "address": "splunk-dev-dev01.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-dev-dev02.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             }
@@ -38,28 +38,28 @@
             {
                 "address": "splunk-uat-d01.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-uat-d02.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-uat-d03.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-uat-d04.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             }
@@ -70,28 +70,28 @@
             {
                 "address": "splunk-d01.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-d02.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-d03.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             },
             {
                 "address": "splunk-d04.maejer.lab",
                 "port": "maejer",
-                "tls": "dev",
+                "tls": "inherit",
                 "tls_servername": "",
                 "load_weght": 1
             }
