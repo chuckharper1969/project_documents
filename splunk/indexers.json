@@ -5,14 +5,12 @@
                 "host": "splunk-dev-d01.maejer.lab",
                 "port": 9997,
                 "tls": "inherit",
-                "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-dev-d02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
-                "servername": "",
                 "weight": 1
             }
         ],
@@ -21,14 +19,12 @@
                 "host": "splunk-dev-dev01.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
-                "servername": "",
                 "weight": 1
             },
             {
                 "host": "splunk-dev-dev02.maejer.lab",
                 "port": "maejer",
                 "tls": "inherit",
-                "servername": "",
                 "weight": 1
             }
         ]
